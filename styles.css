@@ -1,0 +1,10 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
