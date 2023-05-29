@@ -1,10 +1,92 @@
 body {
     display: flex;
     flex-direction: column;
+    padding: 0;
+    margin: 0;
 }
 
 .images {
     display: flex;
     justify-content: center;
     gap: 40px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+
+li {
+    float: left;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-right: 20px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container2 {
+    background-color: white;
+}
+
+.Top {
+    background-color: #1f2937;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.Sign-up {
+    background-color: #3882F6;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+}
+
+h2 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header > img {
+    width: 100px;
+    height: auto;
+}
+
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+}
+
+.Q1 {
+    color: #1f2937;
+    font-style: italic;
+}
+
+.Sign-up {
+    color: #F9FAF8;
+}
+
+.title {
+    padding-left: 100px;
+    width: 400px;
+}
+
+.title > p {
+    color: #e5e7eb;
+    margin-top: 0px;
+}
+
+.title > h2 {
+    margin-bottom: 0px;
 }
