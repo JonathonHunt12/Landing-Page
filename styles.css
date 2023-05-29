@@ -58,14 +58,14 @@ h2 {
     font-weight: 900;
 }
 
-.header > img {
-    width: 100px;
-    height: auto;
-}
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
+    border-radius: 10%;
+    border: none;
+    width: 100px;
+    height: 30px;
 }
 
 .Q1 {
@@ -75,6 +75,10 @@ button {
 
 .Sign-up {
     color: #F9FAF8;
+}
+
+.Sign-up > button {
+    border: 1px solid white;
 }
 
 .title {
