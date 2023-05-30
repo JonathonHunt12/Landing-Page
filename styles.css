@@ -1,21 +1,16 @@
 body {
-    display: flex;
-    flex-direction: column;
     padding: 0;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.images {
-    display: flex;
-    justify-content: center;
-    gap: 40px;
-}
+
 
 ul {
     list-style-type: none;
     margin: 0;
     padding-left: 100px;
-    padding-right: 100px;
+    padding-right: 200px;
     padding-top: 20px;
 }
 
@@ -31,17 +26,11 @@ li {
     justify-content: space-between;
 }
 
-.container2 {
-    background-color: white;
-}
 
 .Top {
     background-color: #1f2937;
 }
 
-.quote {
-    background-color: #e5e7eb;
-}
 
 .Sign-up {
     background-color: #3882F6;
@@ -68,29 +57,93 @@ button {
     height: 30px;
 }
 
-.Q1 {
-    color: #1f2937;
-    font-style: italic;
-}
-
 .Sign-up {
     color: #F9FAF8;
 }
 
-.Sign-up > button {
+.Sign-up>button {
     border: 1px solid white;
 }
 
 .title {
     padding-left: 100px;
-    width: 400px;
+    display: flex;
+    gap: 104px;
+    padding-bottom: 80px;
 }
 
-.title > p {
+.container1 {
+    padding-top: 70px;
+}
+
+.Placeholder {
+    padding-top: 40px;
+}
+
+.Placeholder>img {
+    width: 500px;
+    height: 250px;
+    border: grey solid 1px;
+}
+
+.T1>p {
     color: #e5e7eb;
     margin-top: 0px;
 }
 
-.title > h2 {
+.T1>h2 {
     margin-bottom: 0px;
 }
+
+.container2 {
+    background-color: white;
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.images>div {
+    font-size: 18px;
+    font-weight: normal;
+    width: 250px;
+}
+
+.images>div>p {
+    margin-top: 0;
+    font-weight: 100;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    text-align: center;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Q1 {
+    color: #1f2937;
+    font-style: italic;
+    font-size: 36px;
+    align-self: center;
+}
+
+.Q1>p {
+    width: 1000px;
+    margin-bottom: 0;
+    font-weight: 100;
+}
+
+.Q2 {
+   width: 465px;
+   align-self: flex-end;
+   font-weight: bold;
+   font-size: 18px;
+}
+
