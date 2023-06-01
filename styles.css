@@ -31,11 +31,6 @@ li {
     background-color: #1f2937;
 }
 
-
-.Sign-up {
-    background-color: #3882F6;
-}
-
 .footer {
     background-color: #1f2937;
     color: #F9FAF8;
@@ -51,24 +46,16 @@ h2 {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 10%;
+    border-radius: 10px;
     border: none;
     width: 100px;
     height: 30px;
 }
 
-.Sign-up {
-    color: #F9FAF8;
-}
-
-.Sign-up>button {
-    border: 1px solid white;
-}
-
 .title {
     padding-left: 100px;
     display: flex;
-    gap: 104px;
+    gap: 217px;
     padding-bottom: 80px;
 }
 
@@ -141,9 +128,31 @@ button {
 }
 
 .Q2 {
-   width: 465px;
-   align-self: flex-end;
-   font-weight: bold;
-   font-size: 18px;
+    width: 520px;
+    align-self: flex-end;
+    font-weight: bold;
+    font-size: 18px;
 }
 
+.Sign-up {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 7px;
+    width: 50%;
+    margin-left: 22.25%;
+    padding: 20px 40px 20px 40px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+
+}
+
+.S2>button {
+    border: white solid 1px;
+}
+
+.S2 {
+    align-self: center;
+}
