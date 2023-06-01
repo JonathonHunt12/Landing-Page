@@ -31,11 +31,6 @@ li {
     background-color: #1f2937;
 }
 
-.footer {
-    background-color: #1f2937;
-    color: #F9FAF8;
-}
-
 h2 {
     color: #F9FAF8;
     font-size: 48px;
@@ -155,4 +150,12 @@ button {
 
 .S2 {
     align-self: center;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #F9FAF8;
+    margin: 0;
+    padding: 25px;
+    text-align: center;
 }
